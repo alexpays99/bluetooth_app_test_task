@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_blue_plus/flutter_blue_plus.dart';
 
+import 'views/home_screen.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -15,7 +17,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const BluetoothApp(),
+      // home: const BluetoothApp(),
+      home: const HomeScreen(),
     );
   }
 }
