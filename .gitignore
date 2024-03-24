@@ -38,7 +38,6 @@ doc/api/
 ### Flutter ###
 # Flutter/Dart/Pub related
 **/doc/api/
-.fvm/flutter_sdk
 .pub-cache/
 .pub/
 coverage/
@@ -240,3 +239,6 @@ fabric.properties
 
 ### FASTLANE REPORTS.XML
 /**/fastlane/report.xml
+
+# FVM Version Cache
+.fvm/
